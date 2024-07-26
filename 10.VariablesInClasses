@@ -1,0 +1,48 @@
+/* STRINg is basically another name for words.*/
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Ryan{
+    public:
+        void setName(string x){
+            Name = x;
+        }
+        string getName(){
+            return Name;
+        }
+    private:
+        string Name;
+};
+
+int main(){
+    
+    Ryan RyanObj;
+    RyanObj.setName("Ben Ten");
+    cout << RyanObj.getName();
+    
+    return 0;
+}
+
+/*
+//THIS IS THE WRONG WAY:
+// #include<iostream>
+// #include<string>
+
+// using namespace std;
+
+// class RyanClass{
+//     //Anything outside my class can access this variable when we use public
+//     public:
+//         string Name;
+// };
+
+// int main(){
+//     RyanClass RyanObj;
+//     RyanObj.Name = "Bye";
+//     cout << RyanObj.Name;
+//     return 0;
+// }
+*/
