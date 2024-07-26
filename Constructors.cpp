@@ -1,0 +1,33 @@
+//A function that gets called automatically when we create an object
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Ryan{
+    public:
+    // The constructor name should always be same as the class name
+    // This way the program knows its a constructor
+    // Now when we call this object, the text will be printed
+        Ryan(){
+            cout << "This Will Get Printed automagically.";
+        }
+        //The main reason we create constructors is: To get variables an initial value
+        
+        void setName(string x){
+            Name = x;
+        }
+        string getName(){
+            return Name;
+        }
+    private:
+        string Name;
+};
+
+int main(){
+    
+    Ryan RyanObj;
+
+    return 0;
+}    
