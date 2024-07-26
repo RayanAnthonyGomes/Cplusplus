@@ -1,0 +1,15 @@
+//Basic Arithmetic
+//Easy Ones: 
+//1. +- plus minus 
+//2. */ multiplication and division
+////// To get the :REMAINDER: we need to use the modulus sign (%)
+#include <iostream>
+using namespace std;
+int main() {
+    int x = 9 + 3;
+    int y = 9 - 4;
+    int z = 81 / 9;
+    int r = 22 % 7;
+    cout << x << "\n" << y << "\n" << z  << "\n" << r;
+    return 0;
+}

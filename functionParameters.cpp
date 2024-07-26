@@ -1,0 +1,20 @@
+//Basics of functions parameter
+
+
+#include <iostream>
+using namespace std;
+
+//Parameter: 
+   // Syntax: 
+            // ("What type of data" + "variable name")
+            // => int x
+void printCrap(int x){
+    cout << "buckys favourite number is " << x << endl;
+}
+
+int main(){
+    printCrap(20);
+    return 0;
+}
+
+// We substituded the x for 20
